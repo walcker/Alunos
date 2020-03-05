@@ -1,4 +1,6 @@
 #include "aluno.h"
+#ifndef TURMA_H
+#define TURMA_H
 using namespace std::string;
 
 class Turma {
@@ -22,6 +24,8 @@ class Turma {
     }
     
     void addParticipantes(Aluno umAluno);
-    void setParticipantes();
+    void mostrarAlunos();
 
 }
+
+#endif

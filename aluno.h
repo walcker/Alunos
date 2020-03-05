@@ -1,3 +1,6 @@
+#ifndef ALUNO_H //não importar novamente aluno.h
+#define ALUNO_H
+
 //using namespace std; ou >definição da classe<
 using std::cout;
 using std::endl;
@@ -19,3 +22,5 @@ public:
   string getNome();
   void setNome(string var_nome);
 };
+
+#endif
