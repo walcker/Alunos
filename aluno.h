@@ -1,7 +1,7 @@
-#ifndef ALUNO_H //não importar novamente aluno.h
-#define ALUNO_H
-
 //using namespace std; ou >definição da classe<
+//#include <ifndef>
+#ifndef ALUNO_H
+#define ALUNO_H
 using std::cout;
 using std::endl;
 using std::string;

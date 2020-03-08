@@ -1,6 +1,5 @@
 #include <iostream>
 #include "aluno.h"
-#include "turma.h"
 using namespace std;
 
 string Aluno::getMatricula() {

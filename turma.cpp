@@ -1,5 +1,5 @@
 #include <iostream>
-#include "aluno.h"
+//#include "aluno.h"
 #include "turma.h"
 using namespace std;
 
@@ -22,6 +22,8 @@ short Turma::getCapacidade(){
 }
 void Turma::setCapacidade(short var_capacidade){
   capacidade = var_capacidade;
+  participantes = new Aluno[capacidade];
+  //lotacao = 0;
 }
     
 void setParticipantes();
