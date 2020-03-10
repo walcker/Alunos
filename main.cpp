@@ -16,7 +16,9 @@ int main ()
 	//turma.setDescricao("linguagem de programação, ");
 	//turma.setCapacidade(10);
   //turma.mostrarAlunos();
+  
   std::cout << "Nome = " << aluno1.getNome() << endl <<"Matricula = " << aluno1.getMatricula() << endl << "Idade = " << aluno1.getIdade() << std::endl;
+
   std::cout << "Código = " << turma.getCodigo() << endl << "Descrição = " << turma.getDescricao() << endl << "Capacidade = " << turma.getCapacidade() << std::endl;
 	
 

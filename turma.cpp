@@ -26,11 +26,10 @@ void Turma::setCapacidade(short var_capacidade){
   //lotacao = 0;
 }
 
-Turma::Turma(string x, string y, int a){
-  codigo =x;
-  descricao = y;
-  capacidade = a;
-}
+Turma::Turma(string x, string y, int a):codigo(x),descricao(y),capacidade(a){}
+  //codigo =x;
+  //descricao = y;
+  //capacidade = a;
     
 void setParticipantes();
 
