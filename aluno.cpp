@@ -20,3 +20,9 @@ string Aluno::getNome(){
 void Aluno::setNome(string var_nome){
   nome = var_nome;
 }
+
+Aluno::Aluno(string x, string y, int a){
+nome = x;
+matricula = y;
+idade = a;
+}

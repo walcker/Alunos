@@ -15,6 +15,7 @@ private:
   string nome;
   
 public:
+  Aluno(string nome, string matricula, int idade);
   string getMatricula();
   void setMatricula(string var_matricula);
   short getIdade();

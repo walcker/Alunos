@@ -11,6 +11,7 @@ class Turma {
 
   public:
   //get & set
+    Turma(string codigo, string descricao, int capacidade);
     string getCodigo();
     void setCodigo(string var_codigo);
     string getDescricao();

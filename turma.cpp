@@ -22,8 +22,14 @@ short Turma::getCapacidade(){
 }
 void Turma::setCapacidade(short var_capacidade){
   capacidade = var_capacidade;
-  participantes = new Aluno[capacidade];
+  //participantes = new Aluno[capacidade];
   //lotacao = 0;
+}
+
+Turma::Turma(string x, string y, int a){
+  codigo =x;
+  descricao = y;
+  capacidade = a;
 }
     
 void setParticipantes();
